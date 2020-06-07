@@ -1,0 +1,19 @@
+{
+  "name": "hackerrank-daily",
+  "version": "1.0.0",
+  "description": "Practicing algos on Hackerrank",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afaqahmedkhan/hackerrank-daily.git"
+  },
+  "author": "Afaq Ahmed Khan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/afaqahmedkhan/hackerrank-daily/issues"
+  },
+  "homepage": "https://github.com/afaqahmedkhan/hackerrank-daily#readme"
+}
