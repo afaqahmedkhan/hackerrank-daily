@@ -21,64 +21,27 @@ class Result {
 
     public static String isBalanced(String s) {
         
-    String[] arrOfStr = s.split("");
-         
-    String curlyOpeningBrace = "{";
-    String squareOpeningBrace = "[";
-    String openingBrace = "(";
-    String closingBrace = ")";
-    String curlyClosingBrace = "}";
-    String squareClosingBrace = "]";
-    
-    Stack<String> stack = new Stack<>();
-    
-      for (String a : arrOfStr) {
-          if(a.equals(curlyOpeningBrace) || a.equals(squareOpeningBrace) || a.equals(openingBrace))
-          {
-              stack.push(a);
-          }
-          if(a.equals(curlyClosingBrace))
-          {
-              String popped = stack.pop();
-         
-              if(popped.equals(curlyOpeningBrace)){
-                  if(stack.empty()){
-                       return "YES"; 
-                  }
-              }else {
-                  return "NO";
-              }
-          }
-          
-            if(a.equals(squareClosingBrace))
-          {
-              String popped = stack.pop();
-         
-              if(popped.equals(squareOpeningBrace)){
-                  if(stack.empty()){
-                       return "YES"; 
-                  }
-              }else {
-                  return "NO";
-              }
-          }
-          
-            if(a.equals(closingBrace))
-          {
-              String popped = stack.pop();
-         
-              if(popped.equals(openingBrace)){
-                  if(stack.empty()){
-                       return "YES"; 
-                  }
-              }else {
-                  return "NO";
-              }
-          }
+        Stack<Character> stack = new Stack<>();
+        
+        for (char ch : s.toCharArray()) {
+            if (ch == '{' || ch == '[' || ch == '(') {
+                stack.push(ch);
+            } else {
+                if (stack.isEmpty()) {
+                    return "NO";
+                }
+                char top = stack.pop();
+                if (ch == '}' && top != '{') {
+                    return "NO";
+                } else if (ch == ']' && top != '[') {
+                    return "NO";
+                } else if (ch == ')' && top != '(') {
+                    return "NO";
+                }
+            }
         }
-
-    
-    return "NO";
+        
+        return stack.isEmpty() ? "YES" : "NO";
 
     }
 
