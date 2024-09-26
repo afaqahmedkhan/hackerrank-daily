@@ -40,7 +40,9 @@ If you have any questions or want to get in touch, you can reach me at [afaq.qwe
 
 > “You sort of start thinking anything's possible if you've got enough nerve.” — Ginny Weasley
 
-![Harry Potter Quote](https://i.pinimg.com/originals/2a/33/0c/2a330c2781254e85c09410b92423874a.jpg](https://media.giphy.com/media/51sDmvdwnr8qY/giphy.gif?cid=790b7611l84hg1q8pqzhl0r9e5bqobty4ori745h6nnz6z9p&ep=v1_gifs_search&rid=giphy.gif&ct=g))
+
+
+![Harry Potter GIF](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmRkenJ5bjJkdjZvYmg5eHQ4NWV3NnJpdWR3Y2VjNDVxajYydnNqMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/51sDmvdwnr8qY/giphy.gif)
 
 ---
 
